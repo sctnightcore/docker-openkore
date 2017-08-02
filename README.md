@@ -1,25 +1,24 @@
 # docker-openkore
 
-[![Docker Automated Build](https://img.shields.io/docker/automated/kafka/openkore.svg)](https://hub.docker.com/r/kafka/openkore/)
 [![Docker Build Status](https://img.shields.io/docker/build/kafka/openkore.svg)](https://hub.docker.com/r/kafka/openkore/)
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/kafka/openkore/latest.svg)]()
-[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/kafka/openkore/latest.svg)]()
+[![](https://images.microbadger.com/badges/image/kafka/openkore.svg)](https://microbadger.com/images/kafka/openkore)
+[![](https://images.microbadger.com/badges/version/kafka/openkore.svg)](https://microbadger.com/images/kafka/openkore)
 
 ## What is OpenKore?
 
-A free/open source client and automation tool for Ragnarok Online
+A free/open source client and automation tool for Ragnarök Online
 
 
 ## How to use this image
 
 ```console
-$ docker run -it kafka/openkore
+$ docker run -it --rm kafka/openkore
 ```
 
 or if you want to use your control folder:
 
 ```console
-$ docker run -it --name bot -v /path/control:/var/openkore-master/control kafka/openkore
+$ docker run -it --name bot --rm -v /path/control:/var/openkore-master/control kafka/openkore
 ```
 
 ## User Feedback
